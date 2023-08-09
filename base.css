@@ -1,0 +1,88 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(159, 152, 184);
+    padding: 10px 20px 0px;
+    
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    text-align: center;
+}
+.content {
+    text-align: justify;
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    text-align: center;
+    background-color: rgb(194, 186, 224);
+    min-height: 150px;
+    .redes-sociais {
+        justify-content: center;
+        display: flex;
+        gap: 12px;
+    }
+}
+#header-sobre {
+    background-image: url("imagens/images.jpg");
+}
+#header-horario {
+    background-image: url("imagens/horarios-rio-de-janeiro.jpg");
+}
+#header-contato {
+    background-image: url("imagens/endereco-fiscal-para-abertura-de-empresas-1.jpg");
+}
+table {
+    box-shadow: 10px 12px 6px 5px rgba(0, 0, 0, 0.24);
+    border: solid 1px gray; 
+    text-align: center;
+}
+table thead th{
+    background-color: black;
+    color: white
+}
+table tbody tr:nth-child(even){
+    background-color: #a19e9e  
+}
+table tbody tr:hover{
+    background-color: #544d4d  
+}
+p {
+    font-family: "Times New Roman", Times, serif;
+    color: #961818;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: purple;
+  }
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: purple;
+  }
+form {
+    font-family: "Times New Roman", Times, serif;
+    color: #961818;
+}
+
